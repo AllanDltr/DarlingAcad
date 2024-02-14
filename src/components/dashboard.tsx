@@ -4,8 +4,8 @@ export default function Dashboard() {
       <div className="ImageContainer grow shrink basis-0 h-[416px] py-5 justify-start items-start flex">
         <div className="Image w-[520px] h-[376px] bg-zinc-300 bg-opacity-50 rounded-md justify-center items-center flex">
           <img
-            className="DallE20240214135641CreateAnImageShowingTheViewOverTheShoulderOfSomeoneWorkingOnTheirLaptopSeenFromBehindThePersonSPerspective1 w-[520px] h-[376px] rounded-md"
-            src="https://via.placeholder.com/520x376"
+            className="EducationIllusrated w-[520px] h-[376px] rounded-md"
+            src="/LaptopWorking.webp"
           />
         </div>
       </div>
@@ -32,8 +32,8 @@ export default function Dashboard() {
           <div className="inline-flex items-center self-stretch justify-center gap-4 py-4 Item">
             <div className="Frame w-[60px] h-[60px] bg-black bg-opacity-5 rounded-[30px] justify-center items-center flex">
               <img
-                className="DallE20240214142504CreateAnImageOfAPadlockDesignedWithHighDetailAndRealism1 w-[60px] h-[60px] rounded-[30px]"
-                src="https://via.placeholder.com/60x60"
+                className="Padlock w-[60px] h-[60px] rounded-[30px]"
+                src="/Padlock.webp"
               />
             </div>
             <div className="inline-flex flex-col items-start justify-start Frame427318906 grow shrink basis-0">
@@ -51,8 +51,8 @@ export default function Dashboard() {
           <div className="inline-flex items-center self-stretch justify-center gap-4 py-4 Item">
             <div className="Frame w-[60px] h-[60px] bg-black bg-opacity-5 rounded-[30px] justify-center items-center flex">
               <img
-                className="DallE20240214142840CreateASimpleImageThatRepresentsTheBasicsOfWebDevelopment1 w-[60px] h-[60px] rounded-[30px]"
-                src="https://via.placeholder.com/60x60"
+                className="WebDevelopment w-[60px] h-[60px] rounded-[30px]"
+                src="/WebDev.webp"
               />
             </div>
             <div className="inline-flex flex-col items-start justify-start Frame427318906 grow shrink basis-0">

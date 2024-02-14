@@ -25,7 +25,7 @@ export default function Hero() {
         <div className="Image w-[520px] h-[392px] bg-zinc-300 bg-opacity-50 rounded-md justify-center items-center flex">
           <img
             className="Adef6e9d77ff4801Ac785842899d741a1 w-[520px] h-[392px]"
-            src="https://via.placeholder.com/520x392"
+            src="/LaptopWorking.webp"
           />
         </div>
       </div>

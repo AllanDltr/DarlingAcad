@@ -3,7 +3,7 @@ export default function Header() {
     <div className="inline-flex items-center justify-center w-full h-20 gap-5 p-5 bg-white shadow NavBar">
       <img
         className="AcademyIcon w-10 h-10 rounded-[100px]"
-        src="https://via.placeholder.com/40x40"
+        src="/AcademyLogo.webp"
       />
       <div className="Title grow shrink basis-0 text-black text-[28px] font-bold font-['AvantGarde Bk BT'] leading-9">
         Darling’s Academy

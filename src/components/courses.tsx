@@ -7,7 +7,7 @@ export default function Courses() {
             <div className="relative bg-opacity-50 Image w-60 h-60 bg-zinc-300">
               <img
                 className="Ddc7819607b34423A3d8Bd00ba76986f1 w-60 h-60 left-0 top-[-0.33px] absolute rounded-tl-md rounded-tr-md"
-                src="https://via.placeholder.com/240x240"
+                src="LaptopWorking.webp"
               />
               <div className="absolute top-0 left-0 inline-flex flex-col items-center justify-center px-2 py-1 bg-black bg-opacity-75 Tag rounded-tl-md rounded-br-md">
                 <div className="Text text-white text-xs font-normal font-['AvantGarde Bk BT'] leading-none">
@@ -41,7 +41,7 @@ export default function Courses() {
               </div>
               <img
                 className="Fd5360c0Bbdd4eb6949eBf121c665bdb1 w-60 h-[241px] left-0 top-[-0.33px] absolute"
-                src="https://via.placeholder.com/240x241"
+                src="/DigitalMarketing.webp"
               />
               <div className="absolute top-0 left-0 inline-flex flex-col items-center justify-center px-2 py-1 bg-black bg-opacity-75 Tag rounded-tl-md rounded-br-md">
                 <div className="Text text-white text-xs font-normal font-['AvantGarde Bk BT'] leading-none">

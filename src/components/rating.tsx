@@ -27,8 +27,8 @@ export default function Rating() {
             <div className="flex items-center justify-start h-8 gap-2 Avatar grow shrink basis-0">
               <div className="Avatar w-8 h-8 bg-black bg-opacity-10 rounded-[32px] justify-center items-center flex">
                 <img
-                  className="DallE20240214135106DesignASmallAvatarOfAWomanNamedAmyJohnson1 w-8 h-[33px]"
-                  src="https://via.placeholder.com/32x33"
+                  className="AmyJohnsonAvatar w-8 h-[33px]"
+                  src="/AmyJohnson.webp"
                 />
               </div>
               <div className="inline-flex flex-col items-start justify-start Frame427318906 grow shrink basis-0">
@@ -56,8 +56,8 @@ export default function Rating() {
             <div className="flex items-center justify-start h-8 gap-2 Avatar grow shrink basis-0">
               <div className="Avatar w-8 h-8 bg-black bg-opacity-10 rounded-[32px] justify-center items-center flex">
                 <img
-                  className="DallE20240214135225DesignASmallAvatarOfAManNamedMichaelLee1 w-8 h-[33px]"
-                  src="https://via.placeholder.com/32x33"
+                  className="MichaelLeeAvatar w-8 h-[33px]"
+                  src="/MichaelLee.webp"
                 />
               </div>
               <div className="inline-flex flex-col items-start justify-start Frame427318906 grow shrink basis-0">
