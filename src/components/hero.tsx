@@ -22,9 +22,9 @@ export default function Hero() {
         </div>
       </div>
       <div className="ImageContainer grow shrink basis-0 h-[400px] py-1 justify-start items-start flex">
-        <div className="Image w-[520px] h-[392px] bg-zinc-300 bg-opacity-50 rounded-md justify-center items-center flex">
+        <div className="flex items-center justify-center bg-opacity-50 rounded-md Image bg-zinc-300">
           <img
-            className="Adef6e9d77ff4801Ac785842899d741a1 w-[520px] h-[392px]"
+            className="Adef6e9d77ff4801Ac785842899d741a1 w-[520px] h-[400px]"
             src="/LaptopWorking.webp"
           />
         </div>

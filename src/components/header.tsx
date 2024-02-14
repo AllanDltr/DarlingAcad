@@ -19,9 +19,11 @@ export default function Header() {
           A propos
         </div>
         <div className="flex items-center justify-end gap-1 p-2 border border-black rounded-md Textfield h-9 border-opacity-10">
-          <div className="Text grow shrink basis-0 text-black text-opacity-50 text-sm font-normal font-['AvantGarde Bk BT'] leading-tight">
-            Search in site
-          </div>
+          <input
+            type="text"
+            placeholder="Rechercher sur le site ..."
+            className="Text grow shrink basis-0 text-black text-opacity-50 text-sm font-normal font-['AvantGarde Bk BT']"
+          />
           <div className="flex items-center justify-center w-5 h-5 IconSearch" />
         </div>
         <div className="Tab text-black text-base font-normal font-['AvantGarde Bk BT'] leading-normal">
