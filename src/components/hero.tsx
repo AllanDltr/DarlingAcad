@@ -25,7 +25,7 @@ export default function Hero() {
         <div className="flex items-center justify-center bg-opacity-50 rounded-md Image bg-zinc-300">
           <img
             className="Adef6e9d77ff4801Ac785842899d741a1 w-[520px] h-[400px]"
-            src="/LaptopWorking.webp"
+            src="/HeroSection.webp"
           />
         </div>
       </div>

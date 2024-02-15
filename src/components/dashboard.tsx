@@ -1,10 +1,12 @@
+import "../index.css";
+
 export default function Dashboard() {
   return (
     <div className="Section self-stretch px-[170px] py-[60px] justify-center items-center gap-[60px] inline-flex">
-      <div className="ImageContainer grow shrink basis-0 h-[416px] py-5 justify-start items-start flex">
-        <div className="Image w-[520px] h-[376px] bg-zinc-300 bg-opacity-50 rounded-md justify-center items-center flex">
+      <div className="flex items-start justify-center w-full h-full py-5 ImageContainer grow shrink basis-0">
+        <div className="flex items-center justify-center h-full bg-opacity-50 rounded-md EducationIllustrated Image bg-zinc-300">
           <img
-            className="EducationIllusrated w-[520px] h-[376px] rounded-md"
+            className="w-full h-[400px] rounded-md"
             src="/LaptopWorking.webp"
           />
         </div>
@@ -30,7 +32,7 @@ export default function Dashboard() {
         </div>
         <div className="List self-stretch h-[264px] py-5 flex-col justify-center items-start flex">
           <div className="inline-flex items-center self-stretch justify-center gap-4 py-4 Item">
-            <div className="Frame w-[60px] h-[60px] bg-black bg-opacity-5 rounded-[30px] justify-center items-center flex">
+            <div className="Frame ml-1 w-[60px] h-[60px] bg-black bg-opacity-5 rounded-[30px] justify-center items-center flex">
               <img
                 className="Padlock w-[60px] h-[60px] rounded-[30px]"
                 src="/Padlock.webp"
@@ -44,12 +46,12 @@ export default function Dashboard() {
                 En cours de formation
               </div>
             </div>
-            <div className="Subtitle w-[200px] text-right text-black text-xl font-normal font-['AvantGarde Bk BT'] leading-7">
+            <div className="mr-1 Subtitle w-[200px] text-right text-black text-xl font-normal font-['AvantGarde Bk BT'] leading-7">
               3/5 Cours Complétés
             </div>
           </div>
           <div className="inline-flex items-center self-stretch justify-center gap-4 py-4 Item">
-            <div className="Frame w-[60px] h-[60px] bg-black bg-opacity-5 rounded-[30px] justify-center items-center flex">
+            <div className="Frame ml-1 w-[60px] h-[60px] bg-black bg-opacity-5 rounded-[30px] justify-center items-center flex">
               <img
                 className="WebDevelopment w-[60px] h-[60px] rounded-[30px]"
                 src="/WebDev.webp"
@@ -63,7 +65,7 @@ export default function Dashboard() {
                 Complété
               </div>
             </div>
-            <div className="Subtitle text-right text-black text-xl font-normal font-['AvantGarde Bk BT'] leading-7">
+            <div className="mr-1 Subtitle text-right text-black text-xl font-normal font-['AvantGarde Bk BT'] leading-7">
               Certification obtenue
             </div>
           </div>
