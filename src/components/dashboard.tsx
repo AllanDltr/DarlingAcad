@@ -4,7 +4,7 @@ export default function Dashboard() {
   return (
     <div className="Section self-stretch px-[170px] py-[60px] justify-center items-center gap-[60px] inline-flex">
       <div className="flex items-start justify-center w-full h-full py-5 ImageContainer grow shrink basis-0">
-        <div className="flex items-center justify-center h-full bg-opacity-50 rounded-md EducationIllustrated Image bg-zinc-300">
+        <div className="flex items-center justify-center h-full bg-opacity-50 rounded-md w-90 Image bg-zinc-300">
           <img
             className="w-full h-[400px] rounded-md"
             src="/LaptopWorking.webp"

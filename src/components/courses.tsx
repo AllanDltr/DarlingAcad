@@ -3,8 +3,8 @@ export default function Courses() {
     <div className="Section self-stretch px-[170px] py-[60px] justify-center items-center gap-[60px] inline-flex">
       <div className="List grow shrink basis-0 h-[348px] justify-center items-center gap-10 flex">
         <div className="inline-flex flex-col items-center justify-start bg-opacity-50 border rounded-md Card grow shrink basis-0 bg-stone-300 border-stone-300 border-opacity-10">
-          <div className="inline-flex items-start self-auto justify-center h-60">
-            <div className="relative bg-opacity-50 Image w-60 h-60 bg-zinc-300">
+          <div className="inline-flex items-center w-full h-60">
+            <div className="relative w-full bg-opacity-50 Image h-60 bg-zinc-300">
               <img
                 className="w-full h-60 left-0 top-[-0.33px] absolute rounded-tl-md rounded-tr-md"
                 src="Introduction.webp"
@@ -34,13 +34,13 @@ export default function Courses() {
           </div>
         </div>
         <div className="inline-flex flex-col items-center justify-start bg-opacity-50 border border-black rounded-md Card grow shrink basis-0 bg-stone-300 border-opacity-10">
-          <div className="inline-flex items-start self-auto justify-start ImageContainer h-60">
-            <div className="relative bg-opacity-50 Image w-60 h-60 bg-zinc-300">
+          <div className="inline-flex items-start self-auto justify-start w-full ImageContainer h-60">
+            <div className="relative w-full bg-opacity-50 Image h-60 bg-zinc-300">
               <div className="Title w-52 h-4 left-[16px] top-[112px] absolute text-center text-black text-xs font-normal font-['AvantGarde Bk BT'] leading-none">
                 Course Image
               </div>
               <img
-                className="Fd5360c0Bbdd4eb6949eBf121c665bdb1 w-60 h-60 left-0 top-[-0.33px] absolute rounded-tl-md rounded-tr-md"
+                className="Fd5360c0Bbdd4eb6949eBf121c665bdb1 w-full h-60  top-[-0.33px] absolute rounded-tl-md rounded-tr-md"
                 src="/DigitalMarketing.webp"
               />
               <div className="absolute top-0 left-0 inline-flex flex-col items-center justify-center px-2 py-1 bg-black bg-opacity-75 Tag rounded-tl-md rounded-br-md">

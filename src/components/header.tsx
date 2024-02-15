@@ -24,7 +24,9 @@ export default function Header() {
             placeholder="Rechercher sur le site ..."
             className="Text grow shrink basis-0 text-black text-opacity-50 text-sm font-normal font-['AvantGarde Bk BT']"
           />
-          <div className="flex items-center justify-center w-5 h-5 IconSearch" />
+          <div className="flex items-center justify-center w-5 h-5 IconSearch">
+            🔍
+          </div>
         </div>
         <div className="Tab text-black text-base font-normal font-['AvantGarde Bk BT'] leading-normal">
           Se connecter/S’inscrire

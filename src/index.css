@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-.EducationIllustrated {
+.w-90 {
   width: 90%;
+}
+
+.w-hero {
+  width: 650px;
 }

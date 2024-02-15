@@ -21,10 +21,10 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <div className="ImageContainer grow shrink basis-0 h-[400px] py-1 justify-start items-start flex">
+      <div className="ImageContainer grow shrink basis-0 w-90 h-[400px] py-1 justify-center items-start flex">
         <div className="flex items-center justify-center bg-opacity-50 rounded-md Image bg-zinc-300">
           <img
-            className="Adef6e9d77ff4801Ac785842899d741a1 w-[520px] h-[400px]"
+            className="Adef6e9d77ff4801Ac785842899d741a1 w-hero h-[400px]"
             src="/HeroSection.webp"
           />
         </div>
