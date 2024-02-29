@@ -10,14 +10,20 @@ export default function Hero() {
         </div>
         <div className="inline-flex items-start justify-start gap-3 Button">
           <div className="inline-flex flex-col items-center justify-center w-40 p-3 border rounded-lg Seconday bg-cyan-700 border-cyan-700">
-            <div className="Title text-white text-base font-normal font-['AvantGarde Bk BT'] leading-normal">
+            <a
+              href="#"
+              className="Title text-white text-base font-normal font-['AvantGarde Bk BT'] leading-normal"
+            >
               En voir plus
-            </div>
+            </a>
           </div>
           <div className="inline-flex flex-col items-center justify-center w-40 p-3 bg-pink-500 rounded-lg Primary">
-            <div className="Title text-white text-base font-normal font-['AvantGarde Bk BT'] leading-normal">
+            <a
+              href="#"
+              className="Title text-white text-base font-normal font-['AvantGarde Bk BT'] leading-normal"
+            >
               Commencer
-            </div>
+            </a>
           </div>
         </div>
       </div>

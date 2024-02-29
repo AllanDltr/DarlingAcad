@@ -5,19 +5,31 @@ export default function Header() {
         className="AcademyIcon w-10 h-10 rounded-[100px]"
         src="/AcademyLogo.webp"
       />
-      <div className="Title grow shrink basis-0 text-black text-[28px] font-bold font-['AvantGarde Bk BT'] leading-9">
+      <a
+        href="#"
+        className="Title grow shrink basis-0 text-black text-[28px] font-bold font-['AvantGarde Bk BT'] leading-9"
+      >
         Darling’s Academy
-      </div>
+      </a>
       <div className="flex items-center justify-center gap-10 bg-white Navigation">
-        <div className="Tab text-black text-base font-normal font-['AvantGarde Bk BT'] leading-normal">
+        <a
+          href="#"
+          className="Tab text-black text-base font-normal font-['AvantGarde Bk BT'] leading-normal"
+        >
           Cours
-        </div>
-        <div className="Tab text-black text-base font-normal font-['AvantGarde Bk BT'] leading-normal">
+        </a>
+        <a
+          href="#"
+          className="Tab text-black text-base font-normal font-['AvantGarde Bk BT'] leading-normal"
+        >
           Catégories
-        </div>
-        <div className="Tab text-black text-base font-normal font-['AvantGarde Bk BT'] leading-normal">
+        </a>
+        <a
+          href="#"
+          className="Tab text-black text-base font-normal font-['AvantGarde Bk BT'] leading-normal"
+        >
           A propos
-        </div>
+        </a>
         <div className="flex items-center justify-end gap-1 p-2 border border-black rounded-md Textfield h-9 border-opacity-10">
           <input
             type="text"
@@ -28,9 +40,12 @@ export default function Header() {
             🔍
           </div>
         </div>
-        <div className="Tab text-black text-base font-normal font-['AvantGarde Bk BT'] leading-normal">
+        <a
+          href="#"
+          className="Tab text-black text-base font-normal font-['AvantGarde Bk BT'] leading-normal"
+        >
           Se connecter/S’inscrire
-        </div>
+        </a>
       </div>
     </div>
   );

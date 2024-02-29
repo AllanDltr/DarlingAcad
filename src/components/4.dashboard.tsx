@@ -20,14 +20,20 @@ export default function Dashboard() {
         </div>
         <div className="inline-flex items-start justify-start gap-3 Button">
           <div className="inline-flex flex-col items-center justify-center w-40 p-3 border rounded-lg Seconday bg-cyan-700 border-cyan-700">
-            <div className="Title text-white text-base font-normal font-['AvantGarde Bk BT'] leading-normal">
+            <a
+              href="#"
+              className="Title text-white text-base font-normal font-['AvantGarde Bk BT'] leading-normal"
+            >
               En voir plus
-            </div>
+            </a>
           </div>
           <div className="inline-flex flex-col items-center justify-center w-40 p-3 bg-pink-500 rounded-lg Primary">
-            <div className="Title text-white text-base font-normal font-['AvantGarde Bk BT'] leading-normal">
+            <a
+              href="#"
+              className="Title text-white text-base font-normal font-['AvantGarde Bk BT'] leading-normal"
+            >
               Démarrer
-            </div>
+            </a>
           </div>
         </div>
         <div className="List self-stretch h-[264px] py-5 flex-col justify-center items-start flex">
@@ -39,9 +45,12 @@ export default function Dashboard() {
               />
             </div>
             <div className="inline-flex flex-col items-start justify-start Frame427318906 grow shrink basis-0">
-              <div className="Title self-stretch text-black text-xl font-normal font-['AvantGarde Bk BT'] leading-7">
+              <a
+                href="#"
+                className="Title self-stretch text-black text-xl font-normal font-['AvantGarde Bk BT'] leading-7"
+              >
                 Introduction à la cybersécurité
-              </div>
+              </a>
               <div className="Subtitle self-stretch text-black text-opacity-50 text-base font-normal font-['AvantGarde Bk BT'] leading-normal">
                 En cours de formation
               </div>
@@ -58,9 +67,12 @@ export default function Dashboard() {
               />
             </div>
             <div className="inline-flex flex-col items-start justify-start Frame427318906 grow shrink basis-0">
-              <div className="Title self-stretch text-black text-xl font-normal font-['AvantGarde Bk BT'] leading-7">
+              <a
+                href="#"
+                className="Title self-stretch text-black text-xl font-normal font-['AvantGarde Bk BT'] leading-7"
+              >
                 Les fondamentaux du Web
-              </div>
+              </a>
               <div className="Subtitle self-stretch text-black text-opacity-50 text-base font-normal font-['AvantGarde Bk BT'] leading-normal">
                 Complété
               </div>

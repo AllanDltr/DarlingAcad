@@ -11,7 +11,7 @@ export default function Courses() {
               />
               <div className="absolute top-0 left-0 inline-flex flex-col items-center justify-center px-2 py-1 bg-black bg-opacity-75 Tag rounded-tl-md rounded-br-md">
                 <div className="Text text-white text-xs font-normal font-['AvantGarde Bk BT'] leading-none">
-                  Débutant
+                  Niveau Débutant
                 </div>
               </div>
             </div>
@@ -45,7 +45,7 @@ export default function Courses() {
               />
               <div className="absolute top-0 left-0 inline-flex flex-col items-center justify-center px-2 py-1 bg-black bg-opacity-75 Tag rounded-tl-md rounded-br-md">
                 <div className="Text text-white text-xs font-normal font-['AvantGarde Bk BT'] leading-none">
-                  Intermédiaire
+                  Niveau Intermédiaire
                 </div>
               </div>
             </div>
@@ -73,18 +73,24 @@ export default function Courses() {
           Cours Premium
         </div>
         <div className="Description self-stretch text-black text-base font-normal font-['AvantGarde Bk BT'] leading-normal">
-          Découvrez nos meilleurs cours !
+          Découvrez encore plus de cours !
         </div>
         <div className="inline-flex items-start justify-start gap-3 Button">
           <div className="inline-flex flex-col items-center justify-center w-40 p-3 border rounded-lg Seconday bg-cyan-700 border-cyan-700">
-            <div className="Title text-white text-base font-normal font-['AvantGarde Bk BT'] leading-normal">
+            <a
+              href="#"
+              className="Title text-white text-base font-normal font-['AvantGarde Bk BT'] leading-normal"
+            >
               En voir plus
-            </div>
+            </a>
           </div>
           <div className="inline-flex flex-col items-center justify-center w-40 p-3 bg-pink-500 rounded-lg Primary">
-            <div className="Title text-white text-base font-normal font-['AvantGarde Bk BT'] leading-normal">
+            <a
+              href="#"
+              className="Title text-white text-base font-normal font-['AvantGarde Bk BT'] leading-normal"
+            >
               Abonnez-vous !
-            </div>
+            </a>
           </div>
         </div>
       </div>

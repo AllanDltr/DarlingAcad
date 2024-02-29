@@ -1,9 +1,9 @@
-import Courses from "./components/courses.tsx";
-import Dashboard from "./components/dashboard.tsx";
-import Footer from "./components/footer.tsx";
-import Header from "./components/header.tsx";
-import Hero from "./components/hero.tsx";
-import Rating from "./components/rating.tsx";
+import Header from "./components/0.header.tsx";
+import Hero from "./components/1.hero.tsx";
+import Courses from "./components/2.courses.tsx";
+import Rating from "./components/3.rating.tsx";
+import Dashboard from "./components/4.dashboard.tsx";
+import Footer from "./components/5.footer.tsx";
 import "./index.css";
 
 function App() {
